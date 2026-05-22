@@ -11,4 +11,4 @@ pydantic-settings==2.5.2
 sqlmodel
 authlib
 PyJWT
-pwdlib
+pwdlib[argon2]
