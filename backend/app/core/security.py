@@ -5,7 +5,7 @@ import jwt
 from passlib.context import CryptContext
 from app.core.config import settings
 
-pwd_context = Cryptcontext(schemes=["bcrypt", "argon2"], deprecated="auto")
+pwd_context = CryptContext(schemes=["bcrypt", "argon2"], deprecated="auto")
 
 ALGORITHM = "HS256"
 
